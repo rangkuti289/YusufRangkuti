@@ -1,0 +1,16 @@
+About Us
+
+Perkenalkan nama saya Muhammad Yusuf Rizqon
+Rangkuti, saya adalah mahasiswa semester 5
+Universitas Mercu Buana prodi Informatika. Saya
+mempunyai rasa ingin tahu yang tinggi, kreatif, supel,
+berkomitmen tinggi dan mampu bekerja sama dengan
+tim ataupun pribadi. Saya tertarik pada bidang data
+dan ingin mengimplementasikannya dalam industri
+yang bergerak dibidang teknologi.
+
+
+Experience
+Saya memiliki pengalaman sebagai Asisten Laboratorium Univesitas Mercu Buana, tugas saya sebagai asisten laboratorium antara lain 
+memantau dan memelihara lab secara teratur , Software, Hardware dan jaringan lab dengan memeriksa kesalahan menginstal aplikasi. Saya juga berkontribusi dalam pembuatan Sistem Peminjaman Perpustakaan dan penelitian mengenai
+prediksi dan tingkat akurasi suhu di Indonesia untuk membantu dalam menghadapi suhu dingin di Indonesia terutama para petani dan peternak

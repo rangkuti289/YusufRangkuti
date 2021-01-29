@@ -1,0 +1,369 @@
+/* Navbar */    
+.navbar-brand
+{
+    font-family: Lobster;
+    font-size: 32px;
+}
+body{
+    background-color: #1f2235;
+}
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.textnama{
+    color: white;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 32px;
+    animation: fadeAndScale .3s cubic-bezier(.21,.31,.68,1.56);
+    transform-origin: bottom;
+
+}
+.textnama1{
+    animation: fadeAndScale 1s cubic-bezier(.88,-0.89,.61,1.84);
+    transform-origin: bottom;
+}
+
+@keyframes fadeAndScale{
+    from{
+        opacity: 0;
+        transform: scale3d(.75, .75, 1);
+    }
+    to{
+        opacity: 1;
+        transform: scale3d(1, 1, 1);
+    }
+}
+.textanim{
+    color: white;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 32px;
+    display: block;
+    overflow: hidden;
+    margin: auto;
+white-space: nowrap;
+transform: translateY(-50%);
+margin-top: 30px;
+}
+.typing >*
+{
+animation : typing 4s steps(25000000) 1s 1 normal both, kedip 100ms steps(25) infinite normal;
+}
+
+@keyframes typing{
+    from {width: 0;}
+    to {width: 9em;}
+}
+@keyframes kedip
+{
+    from {
+        border-right-color: rgba(255, 255, 255, 0.75);
+    } to {
+        border-right-color: transparent;
+    }
+}
+
+/* Logo */
+.main-container
+{
+     text-align: center;
+     margin-top: 10px;
+}
+
+.main-container img{
+    width: 35%;
+}
+.tombol
+{
+    margin-right: 15px;
+    border-radius: 50px;
+}
+/* isi aboutme */
+.isi
+{
+    margin-top: 100px;
+}
+.aboutme
+{
+    text-align: left;
+    font-family: Lobster;
+    color: white;
+    font-size: 32px;
+    margin-top: 100px;
+}
+.konten
+{
+    font-family: Ubuntu;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: justify;
+}
+.logo img
+{
+    width: 30%;
+    margin-top: 100px;
+}
+
+
+/* Experience*/
+.exp
+{
+    color: white;
+    margin-top: 15%;
+}
+.experience
+{
+    text-align: left;
+    font-family: Lobster;
+    color: white;
+    font-size: 32px;
+    margin-top: 100px;
+}
+.expkonten
+{font-family: Ubuntu;
+font-size: 20px;
+margin-top: 10px;
+text-align: justify;
+}
+.logoexp img
+{
+    width: 95%;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+/* Skill */
+.skill
+{
+    color: white;
+    margin-top: 20%;
+}
+.judul
+{
+    font-family: Lobster;
+}
+/* Skill */
+.py
+{
+display: block;
+margin: auto;
+}
+.sql
+{
+text-align: center;
+}
+.boostrap
+{
+font-size: 100px;
+color: rgb(131, 19, 235);
+display: block;
+margin: auto;
+text-align: center;
+
+}
+.logophp
+{
+font-size: 100px;
+color: #4169E1;
+display: block;
+margin: auto;
+}
+.ci{
+width: 100px;
+display: block;
+margin: auto;
+}
+.css{
+    width: 100px;
+    display: block;
+    margin: auto;
+    }
+
+/* Contact */
+.contact
+{
+    margin-top: 9%;
+    margin-bottom: 10%;
+}
+.wa{
+    margin-top: 10px;
+    color: #25D366;
+    font-size: 50px;
+}
+.ig{
+    margin-top: 10px;
+    color: white;
+    font-size: 50px;
+}
+.linked
+{
+    margin-top: 10px;
+    color: white;
+    font-size: 50px;
+}
+/* Carousel Foto */
+.preparing img
+{
+    height:300px;
+}
+.compare img
+{
+    width: 500px;
+    height:300px;
+}
+.web1 img{
+    width: 500px;
+    height:300px;
+}
+.web2 img
+{
+    width: 500px;
+    height:300px;
+}
+
+.textss
+{
+    font-family: Lobster;
+    font-size: 32px;
+    color: white;
+    margin-bottom: 25px;
+}
+.foto
+{
+    margin-top: 20%;
+}
+
+/* Desktop Version//Responsive Breakpoints*/
+@media (min-width: 992px) { 
+
+    .navbar-scroll
+{
+background-color:black;
+transition-duration: 1s;
+}
+    .nav-link
+{
+    text-transform: uppercase;
+    margin-right: 25px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+}
+.nav-link:hover::after{
+    content: "";
+    display: block;
+    border-bottom: 3px solid white ;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 3px;
+    margin-bottom: -6px;
+}
+
+}
+
+/* mobile version  */
+@media (max-width: 600px) 
+{
+     /*About  */
+.kontainer
+{
+    background-color: black;
+}
+.logo
+{
+    display: none;
+}
+.aboutme
+{
+    text-align: center;
+    font-family: Lobster;
+    color: white;
+    font-size: 32px;
+    margin-top: 100px;
+}
+.konten
+{
+    font-family: Ubuntu;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+/* Experience */
+.experience
+{
+    text-align: center;
+    font-family: Lobster;
+    color: white;
+    font-size: 32px;
+    margin-top: 100px;
+}
+.expkonten
+{font-family: Ubuntu;
+font-size: 20px;
+margin-top: 10px;
+text-align: justify;
+}
+.logoexp
+{
+display: none;
+}
+
+/* Skill */
+.boostrap
+{
+font-size: 100px;
+color: rgb(181, 14, 223);
+text-align: center;
+}
+.logophp
+{
+font-size: 100px;
+color: #4169E1;
+text-align: center;
+}
+.ci{
+width: 100px;
+display: block;
+margin: auto;
+margin-top: 10px;
+}
+.css{
+width: 100px;
+display: block;
+margin: auto;
+margin-top: 10px;
+}
+.py
+{
+display: block;
+margin: auto;
+}
+.sql
+{
+text-align: center;
+margin-top: 10px;
+}
+/* Contact */
+.wa{
+    margin-top: 10px;
+    color: #25D366;
+    font-size: 40px;
+}
+.ig{
+    margin-top: 10px;
+    color: white;
+    font-size: 40px;
+}
+.linked
+{
+    margin-top: 10px;
+    color: white;
+    font-size: 40px;
+}
+
+}
